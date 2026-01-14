@@ -1,19 +1,30 @@
 {
-	"name": "Java",
-	"image": "mcr.microsoft.com/devcontainers/java:1-21-bullseye",
-
-	"features": {
-		"ghcr.io/devcontainers/features/java:1": {
-			"version": "none",
-			"installMaven": "false",
-			"installGradle": "true"
-		}
-	},
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"vscjava.vscode-java-test"
-			]
-		}
-	}
+    "image": "mcr.microsoft.com/devcontainers/java:25",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "vscjava.vscode-java-pack", //Extension Pack for Java: Java, Maven, Gradle, IntelliCode
+                "yzhang.markdown-all-in-one" //Markdown All in One: advanced markdown support
+            ],
+            "settings": {
+				 //starts container in mode to compile/run code vs. lightweight mode
+                "java.server.launchMode": "Standard",
+				 //inlay hints are like param names before arguments
+                "editor.inlayHints.enabled": "off",
+                //settings to format
+                "editor.formatOnType": true,
+                //italicize comments
+                "editor.tokenColorCustomizations": {
+                    "textMateRules": [
+                        {
+                            "scope": "comment",
+                            "settings": {
+                                "fontStyle": "italic"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
 }
