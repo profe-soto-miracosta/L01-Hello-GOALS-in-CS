@@ -41,7 +41,7 @@ If your code passes the test, a green checkmark will appear. If you see a red X,
 
 6. **Commit and Push your code**
 
-   1. Click on the Source Control icon (three interconnected circles). 
+   1. Click on the Source Control icon (three interconnected circles).
    2. Click on the plus sign next to the files you wish to commit.
    3. Enter a meaningful commit message.
    4. Click the Commit & Push button.
