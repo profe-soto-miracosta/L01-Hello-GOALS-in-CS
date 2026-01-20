@@ -14,11 +14,7 @@ named `main` and a statement `System.out.println("Hello world.);`.
 
 Running or executing your code will allow you to see how it currently works,
 
-There are a number of ways to run a program in VS Code.
-- You can use the Run and Debug tool in the Activity Bar.
-- You can choose Run Java from the context menu in the program.
-- You can select the play button on the top right of the editor window.
-- You can choose Run Without Debugging from the Run menu.
+There are a number of ways to run a program in VS Code, I suggest that you select the play button on the top right of the editor window.
    
 The output will appear in the terminal window.
 
@@ -34,7 +30,7 @@ Note, it must say the above **exactly** as shown.
 
 4. **Test the code**
 
-Built in tests can check your code to see if you have made the changes correctly. The way these tests are run depends on your IDE.
+Built in tests can check your code to see if you have made the changes correctly. Run the test by clicking on the Erlenmeyer flask (cone flask) on the left-hand navigation menu, then clicking the play button, which becomes visible when you hover over one of the tests.
 If your code passes the test, a green checkmark will appear. If you see a red X, click on the expected message and investigate the differences.
 
 5. **Repeat steps 3 and 4 until done**
